@@ -81,13 +81,17 @@ Permissions & Ownership
 | `chmod 755 file`        | Set file permissions       |
 | `chown user:group file` | Change ownership of a file |
 
-user → The new owner of the file\n
-group → The new group\n
-file → The file or directory you're modifying\n
+user → The new owner of the file
 
-Example:\n
-sudo chown alice:developers report.txt\n
-Sets alice as the owner, and developers as the group of report.txt. 
+group → The new group
+
+file → The file or directory you're modifying
+
+Example:
+
+sudo chown alice:developers report.txt
+
+Sets alice as the owner, and developers as the group of report.txt.
 
 Miscellaneous & Power Tools
 
@@ -102,19 +106,31 @@ Miscellaneous & Power Tools
 | `crontab -e`              | Edit scheduled tasks             |
 | `sudo`                    | Run a command as root/superuser  |
 
-Alias Example:\n
-alias ping='ping -c4'\n
-ping www.google.com (will ping 4 times only)\n
-unalias ping (will remove the shortcut command)\n
+Alias Example:
+
+alias ping='ping -c4'
+
+ping www.google.com (will ping 4 times only)
+
+unalias ping (will remove the shortcut command)
+
 alias (will show all alias shortcut commands)
 
-Zip Example:\n
-You are here: /home/debian/Desktop\n
-You have a folder on Desktop called "auto" that contains 5 files.\n
-To make a zip file of "auto" you have to type:\n
+Zip Example:
+
+You are here: /home/debian/Desktop
+
+You have a folder on Desktop called "auto" that contains 5 files.
+
+To make a zip file of "auto" you have to type:
+
 zip -r cars.zip auto/
 
-zip: The command to create a ZIP archive.\n
--r: Stands for "recursive", meaning it will include all files and subdirectories inside auto/.\n
-cars.zip: The name of the ZIP file you want to create.\n
+zip: The command to create a ZIP archive.
+
+-r: Stands for "recursive", meaning it will include all files and subdirectories inside auto/.
+
+cars.zip: The name of the ZIP file you want to create.
+
 auto/: The folder you want to compress.  
+
