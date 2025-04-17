@@ -116,6 +116,8 @@ unalias ping (will remove the shortcut command)
 
 alias (will show all alias shortcut commands)
 
+--------------------------------------------------------------
+
 Zip Example:
 
 You are here: /home/debian/Desktop
