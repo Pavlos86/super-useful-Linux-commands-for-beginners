@@ -1,7 +1,7 @@
 # super-useful-Linux-commands-for-beginners
 50+ super useful Linux commands for beginners
 
-File & Directory Navigation
+---> File & Directory Navigation
 
 | Command | Description                                           |
 | ------- | ----------------------------------------------------- |
@@ -13,7 +13,7 @@ File & Directory Navigation
 | `tree`  | Show directory structure as a tree (optional package) |
 | `clear` | Clear the terminal screen                             |
 
-File & Directory Management
+---> File & Directory Management
 
 | Command                | Description                      |
 | ---------------------- | -------------------------------- |
@@ -26,7 +26,7 @@ File & Directory Management
 | `find . -name "*.txt"` | Find files with `.txt` extension |
 | `stat file.txt`        | Show detailed file info          |
 
-Viewing & Editing Files
+---> Viewing & Editing Files
 
 | Command                   | Description                           |
 | ------------------------- | ------------------------------------- |
@@ -39,7 +39,7 @@ Viewing & Editing Files
 | `echo "text" > file.txt`  | Write to a file (overwrite)           |
 | `echo "more" >> file.txt` | Append text to a file                 |
 
-System Info & Monitoring
+---> System Info & Monitoring
 
 | Command    | Description                                   |
 | ---------- | --------------------------------------------- |
@@ -53,7 +53,7 @@ System Info & Monitoring
 | `id`       | User and group IDs                            |
 | `ps aux`   | Show all running processes                    |
 
-Network Commands
+---> Network Commands
 
 | Command            | Description                |
 | ------------------ | -------------------------- |
@@ -63,7 +63,7 @@ Network Commands
 | `curl ifconfig.me` | Show your public IP        |
 | `hostname`         | Display system hostname    |
 
-Package Management (Debian/Ubuntu)
+---> Package Management (Debian/Ubuntu)
 
 | Command                    | Description                |
 | -------------------------- | -------------------------- |
@@ -73,7 +73,7 @@ Package Management (Debian/Ubuntu)
 | `sudo apt remove package`  | Uninstall a package        |
 | `dpkg -l`                  | List installed packages    |
 
-Permissions & Ownership
+---> Permissions & Ownership
 
 | Command                 | Description                |
 | ----------------------- | -------------------------- |
@@ -93,7 +93,7 @@ sudo chown alice:developers report.txt
 
 Sets alice as the owner, and developers as the group of report.txt.
 
-Miscellaneous & Power Tools
+---> Miscellaneous & Power Tools
 
 | Command                   | Description                      |
 | ------------------------- | -------------------------------- |
